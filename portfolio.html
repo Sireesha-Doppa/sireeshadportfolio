@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="portfolio.css">
     <title>portfolio</title>
 </head>
-<body>
+<style>
+    body {font-family: Arial, Helvetica, sans-serif;}
     
+    .navbar {
+      width: 100%;
+      background-color: white;
+      overflow: auto;
+    }
+    
+    .navbar a {
+      float: left;
+      padding: 12px;
+      color: black;
+      text-decoration: none;
+      font-size: 19px;
+    }
+    
+    .navbar a:hover {
+      text-decoration:none;
+      border-bottom:3px solid blue;
+    }   
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
+    </style>
+    
+
+<body>
+    <!--home section-->
+
+    <!--navbar-->
+    <div class="homesection">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="nav-port"> Home </a>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto d-flex justify-content-spacebetween">
+                  <a class="nav-port" href="#aboutsection" >About</a>
+                  <a class="nav-port" href="#educationsection" >Education</a>
+                  <a class="nav-port" href="#projectssection" >Projects</a>
+                  <a class="nav-port" href="#contactsection" >Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>       
+ 
+    <!--home-->
+          <div class="home-container">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-8 home-text">
+                 <h1 style="color:rgb(47, 24, 151);font-size:50px; font-weight:bold;">Hiii....I Am <br>Sireesha <br>Chaduvula <br>FrontEnd <br>Developer</h1>
+                  <p style="color:rgb(47, 24, 151);font-size:18px;">This is my official Portfolio Website to showcase <br>my all works related to web development.</p>
+                 </div>
+                 <div class="col-12 col-lg-4">
+                   <img src="images/pic.jpeg" class="image1">
+                </div>
+             </div>
+            </div>
+          </div>
+        </div>
+
+
+    <!--aboutmesection-->
+       <div id="aboutsection">
+         <div class="aboutcontainer d-flex flex-row justify-content-center m-auto">
+            <div class="aboutcontent">
+            <h1 class="aboutheading">About me</h1>
+            <p class="aboutparagraph">Hii...I am Sireesha Chaduvula.Having total three years of experience on development and maintenance of ecommerce websites,responsive webdesigns and also experience in working Html,CSS,Js,Bootstrap,SQL.I am insterested in developing new projects using Frontend Technology.
+                As a front-end developer,i'm driven by a deep passion for creating seamless,visually engaging user interfaces.With a solid foundation 
+                in HTML,CSS,Javascript, i excel at turning design concepts into interactive web experiences.
+            </p>
+           </div>
+           <div>
+              <img src="images/pic.jpeg" class="image1">
+           </div class="h-center">
+           <button class="btn btn-secondary">Download CV</button>  
+       </div>
+
+    <!--educationsection-->
+        <div id="educationsection">
+            <div CLass="educationcard">
+                <h3 class="educationheading">
+                    BTECH
+                </h3>
+                <p>I completed my graduation in 2016 with 67% in MVGR College of engineering
+                </p>
+            </div>
+       
 </body>
 </html>
