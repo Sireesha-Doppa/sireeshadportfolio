@@ -18,11 +18,15 @@
     font-weight:bold;
 }
 <!--about-->
-.about-container{
-    background-color:rgb(108, 108, 113);
-    background-size:cover;
-    height:100vh;
-}
+.aboutcontainer {
+    background-color:#fff;
+    padding:5px 0px; 
+    border-color: #7FBFDA; 
+    border-width: 2px; 
+    border-style: solid;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.35);
+    padding-right: 10px;
+  }
 .about-text{
     margin-top:150px;
     text-align:justify;
@@ -42,7 +46,13 @@
 
 .educationcontainer{
     background-color:rgb(212, 206, 206);
-}
+    padding:5px 0px; 
+    border-color: #7FBFDA; 
+    border-width: 2px; 
+    border-style: solid;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.35);
+    padding-right: 10px;
+    }
 .e-card{
   text-align: center;
   background-color: white;
@@ -51,3 +61,55 @@
   border-color: #e5eaf4;
   border-radius: 16px;
 }
+.projectcontainer{
+    background-color: white;
+    padding:5px 0px; 
+    border-color: #7FBFDA; 
+    border-width: 2px; 
+    border-style: solid;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.35);
+    padding-right: 10px;
+}
+
+.projectheading{
+    text-align:center;
+    font-size:40px;
+    font-weight:bold;
+    color:blue;
+}
+.projectcard{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.projectimage{
+    max-width: 100%;
+    height: auto;
+}
+.img8, .img9, .img10 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+      }
+.img8{
+    background-image: url("https://t4.ftcdn.net/jpg/00/39/09/51/240_F_39095141_jjsCUbKT3962V7ObfGV6MA2pJVGWAa2j.jpg");
+    min-height: 400px;
+  }
+  .img9{
+    background-image: url("https://th.bing.com/th?id=OIP.ZvOzE-QJ_f8MmN8u3lW2LwHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2");
+    min-height: 400px;
+  }
+  .img10{
+    background-image: url("https://t4.ftcdn.net/jpg/03/83/91/85/240_F_383918518_XWHxcaFVhzg37t1kN3Ro11f6ME5XC5DZ.jpg");
+    min-height: 400px;
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
